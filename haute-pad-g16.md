@@ -1,3 +1,5 @@
+# HautePad G16
+
 ## ファームウェアのWebマニュアル
 
 - [GP2040-CE](https://gp2040-ce.info/)
@@ -81,41 +83,22 @@
 
 ## Pinマッピング
 
-### 方向
-
-方向ボタンのマッピング
-
-| Pin | GP2040 | 共通 |
-| --- | --- | --- |
-| 02 | Up | 上 |
-| 03 | Down | 下 |
-| 04 | Right | 右 |
-| 05 | Left | 左 |
-
-### A, B, X, Y
-
 | Pin | GP2040 | XINPUT | Switch | PS3, PS4 |
 | --- | --- | --- | --- | --- |
+| 02 | Up | 上 | 上 | 上 |
+| 03 | Down | 下 | 下 | 下 |
+| 04 | Right | 右 | 右 | 右 |
+| 05 | Left | 左 | 左 | 左 |
 | 06 | B1 | A | B | × |
 | 07 | B2 | B | A | ○ |
 | 10 | B3 | X | Y | □ |
 | 11 | B4 | Y | X | △ |
-
-### RB, LB, RT, LT
-
-| Pin | GP2040 | XINPUT | Switch | PS3, PS4 |
-| --- | --- | --- | --- | --- |
 | 08 | R2 | RT | ZR | R2 |
 | 09 | L2 | LT | ZL | L2 |
 | 12 | R1 | RB | R | R1 |
 | 13 | L1 | LB | L | L1 |
 | 18 | L3 | LS | LS | LS |
 | 19 | R3 | RS | RS | RS |
-
-### Other
-
-| Pin | GP2040 | XINPUT | Switch | PS3, PS4 |
-| --- | --- | --- | --- | --- |
 | 16 | S1 | Back | Minus | SHARE |
 | 17 | S2 | Start | Plus | OPTIONS |
 | 20 | A1 | Home | Home | PS |
