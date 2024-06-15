@@ -1,6 +1,3 @@
-title: 'HautePad G16'
-permalink: /haute-pad-g16
-
 ## ファームウェアのWebマニュアル
 
 - [GP2040-CE](https://gp2040-ce.info/)
@@ -70,14 +67,14 @@ permalink: /haute-pad-g16
 
 1. [サポートページ](https://haute42.com/supports/)から最新Ver.の[GitHubページ](https://github.com/OpenStickCommunity/GP2040-CE/releases)へ飛ぶ
 2. `flash_nuke.uf2`をダウンロードする
-3. `GP2040-CE_0.X.X_Haute42.uf2`をダウンロードする
+3. `GP2040-CE_X.X.X_Haute42.uf2`（またはHaute42と書いてあるヤツ）をダウンロードする
 4. Startボタンを押しながらコントローラを接続する
 5. Webブラウザで[192.168.7.1](http://192.168.7.1/)へアクセスする
 6. `Reboot`ボタンから`Bootsel/USB`モードを起動する
 7. PCにリムーバブルドライブとして`RPI-RP2`が接続される
 8. `RPI-RP2`に`flash_nuke.uf2`をドラッグ＆ドロップする
 9. `RPI-RP2`が再接続されるのを待つ
-10. `GP2040-CE_0.X.X_Haute42.uf2`をドラッグ＆ドロップする
+10. `GP2040-CE_X.X.X_Haute42.uf2`をドラッグ＆ドロップする
 11. `RPI-RP2`の接続が切れるのを待つ
 
 これで最新ファームウェア且つHaute42の設定でアップデートされる。
