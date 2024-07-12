@@ -102,7 +102,7 @@
 | 16 | S1 | Back | Minus | SHARE |
 | 17 | S2 | Start | Plus | OPTIONS |
 | 20 | A1 | Home | Home | PS |
-| 21 | A2 | ------ | Capture | Touchpad |
+| 21 | A2 | ---- | Capture | Touchpad |
 
 ## Hardware
 
