@@ -1,3 +1,5 @@
+# Haute Pad G16 覚書
+
 ## ファームウェアマニュアル
 
 - [GP2040-CE](https://gp2040-ce.info/)
