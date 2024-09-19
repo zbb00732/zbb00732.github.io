@@ -1,6 +1,3 @@
-layout: page
-title: "HautePad G16 の覚書"
-
 ## ファームウェアマニュアル
 
 - [GP2040-CE](https://gp2040-ce.info/)
