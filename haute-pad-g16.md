@@ -1,4 +1,5 @@
-# HautePad G16
+layout: page
+title: "HautePad G16 の覚書"
 
 ## ファームウェアマニュアル
 
