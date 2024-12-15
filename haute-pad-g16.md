@@ -2,7 +2,7 @@
 
 ## ファームウェアマニュアル
 
--   [GP2040-CE](https://gp2040-ce.info/)
+- [GP2040-CE](https://gp2040-ce.info/)
 
 ## 互換性切り替え
 
