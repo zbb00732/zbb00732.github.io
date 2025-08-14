@@ -1,4 +1,4 @@
-# GameSir T4 Pro
+# GameSir T4 Pro 覚書
 
 ## リンク
 

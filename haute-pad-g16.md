@@ -1,4 +1,4 @@
-# Haute Pad G16 覚書
+# HautePad G16 覚書
 
 ## ファームウェアマニュアル
 
