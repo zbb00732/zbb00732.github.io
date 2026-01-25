@@ -1,5 +1,9 @@
 # HautePad G16 覚書
 
+## 概要
+
+[HautePad G16](https://haute42.com/haute-pad-g-series/)の設定手引き。G16以外のHaute42製品は同じファームウェアを使っているみたいだから、他のモデルでも同様に設定できると思われる。少なくとも、[Haute Board Mini](https://haute42.com/haute-board-mini/)は同じだった。
+
 ## ファームウェアマニュアル
 
 - [GP2040-CE](https://gp2040-ce.info/)
