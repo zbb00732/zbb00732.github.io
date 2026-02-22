@@ -1,0 +1,122 @@
+# Haute Pad 覚書
+
+## 概要
+
+Haute42の[Haute Pad](https://haute42.com/product/)シリーズは、おそらく同じファームウェア（[GP2040-CE](https://gp2040-ce.info/)）を使用している模様。確認した限りでは以下の製品で同じファームウェアだった。
+
+- [HautePad G16](https://haute42.com/haute-pad-g-series/)
+- [Haute Board Mini](https://haute42.com/haute-board-mini/)
+
+## ファームウェアマニュアル
+
+- [GP2040-CE](https://gp2040-ce.info/)
+
+## 互換性切り替え
+
+接続時に以下のボタンを押しておくことで互換性を切り替えることができる。
+
+この設定は接続を解除しても記憶される。
+
+入力 | モード
+:---: | ---
+B | Windows / Steam
+A | Switch
+X | PS3 / Direct Input
+Y | PS4
+RT | キーボード
+
+## 方向キー設定
+
+接続後にボタンコンビネーション入力で方向キーの設定を変更できる。
+
+この設定は接続を解除しても記憶される。
+
+入力 | モード
+:---: | ---
+BACK + START + ↓ | D-Pad
+BACK + START + ← | L スティック
+BACK + START + → | R スティック
+
+## SOCD 設定
+
+接続後にボタンコンビネーション入力で方向キー同時入力の挙動を設定できる。
+
+この設定は接続を解除しても記憶される。
+
+入力 | モード
+:---: | ---
+HOME + START + ↑ | 上優先
+HOME + START + ↓ | ニュートラル
+HOME + START + ← | 最終入力優先
+
+## 連射設定
+
+接続後にTURBOボタンを押しながらボタン入力することで連射を設定できる。
+
+同じ操作を繰り返せば設定は解除される。
+
+## Web Config
+
+接続時にSTARTボタンを押しておくことで設定ユーティリティを起動する。ユーティリティへはWebブラウザからIPv4アドレス[192.168.7.1](http://192.168.7.1/)でアクセスできる。
+
+## LED
+
+入力 | モード
+:---: | ---
+BACK + START + X | 次のアニメーション
+BACK + START + A | 前のアニメーション
+BACK + START + Y | 明度アップ
+BACK + START + B | 明度ダウン
+BACK + START + RB | LED パラメータアップ
+BACK + START + RT | LED パラメータダウン
+BACK + START + LB | 押下時パラメータアップ
+BACK + START + LT | 押下時パラメータダウン
+
+## ファームウェアアップデート
+
+1. [サポートページ](https://haute42.com/supports/)から最新 Ver.の[GitHub ページ](https://github.com/OpenStickCommunity/GP2040-CE/releases)へ飛ぶ
+2. `flash_nuke.uf2`をダウンロードする
+3. `GP2040-CE_X.X.X_Haute42.uf2`（またはHaute42と書いてあるヤツ）をダウンロードする
+4. STARTボタンを押しながらコントローラを接続する
+5. Webブラウザで[192.168.7.1](http://192.168.7.1/)へアクセスする
+6. ページ上の「Reboot」ボタンから「Bootsel/USB」モードを起動する
+7. PC にリムーバブルドライブとしてRPI-RP2が接続される
+8. RPI-RP2に`flash_nuke.uf2`をドラッグ＆ドロップする
+9. RPI-RP2が再接続されるのを待つ
+10. `GP2040-CE_X.X.X_Haute42.uf2`をドラッグ＆ドロップする
+11. RPI-RP2の接続が切れるのを待つ
+
+これで最新ファームウェア且つHaute42の設定でアップデートされる。
+
+## Pin マッピング
+
+Pin | GP2040 | XINPUT | Switch | PS3, PS4
+:---: | :---: | :---: | :---: | :---:
+02 | UP | 上 | 上 | 上
+03 | DOWN | 下 | 下 | 下
+04 | RIGHT | 右 | 右 | 右
+05 | LEFT | 左 | 左 | 左
+06 | B1 | A | B | × 
+07 | B2 | B | A | ○ 
+10 | B3 | X | Y | □ 
+11 | B4 | Y | X | △ 
+08 | R2 | RT | ZR | R2
+09 | L2 | LT | ZL | L2
+12 | R1 | RB | R | R1
+13 | L1 | LB | L | L1
+18 | L3 | LS | LS | LS
+19 | R3 | RS | RS | RS
+16 | S1 | Back | Minus | SHARE
+17 | S2 | Start | Plus | OPTIONS
+20 | A1 | Home | Home | PS
+21 | A2 | ---- | Capture | Touchpad
+
+## その他のボタン
+
+Pin | GP2040 | Misc
+:---: | :---: | ---
+14  | TURBO | 05 番（左）の上の小ボタン
+18  | L3 | 10 番（X）の上
+19  | R3 | 07 番（B）の下
+26  | L3 | 02 番（上）の左
+27  | UP | 03 番（下）の上
