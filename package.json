@@ -1,0 +1,24 @@
+{
+  "name": "github-pages",
+  "version": "1.0.0",
+  "description": "自分の、自分による、自分のための Github Pages",
+  "homepage": "https://github.com/zbb00732/zbb00732.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/zbb00732/zbb00732.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbb00732/zbb00732.github.io.git"
+  },
+  "license": "ISC",
+  "author": "Shingo Yoneda <zbb00732@outlook.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "markdownlint-cli2",
+    "fix": "markdownlint-cli2 --fix"
+  },
+  "dependencies": {
+    "markdownlint-cli2": "^0.21.0"
+  }
+}
