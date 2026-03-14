@@ -61,6 +61,8 @@ ___太字斜体___
 
 <sub>下付き</sub>文字
 
+---
+
 ## 文章の引用
 
 ```markdown
@@ -81,6 +83,8 @@ ___太字斜体___
 > > 引用文の引用文
 > > > 引用文の引用文の引用文
 
+---
+
 ## コードのインライン引用
 
 ```markdown
@@ -88,6 +92,8 @@ ___太字斜体___
 ```
 
 文章内でコマンドをインライン引用する場合は`git status`のようにする。
+
+---
 
 ## コードのブロック引用
 
@@ -108,6 +114,8 @@ ___太字斜体___
 \## レベル2見出し  
 \### レベル3見出し  
 \`\`\`
+
+---
 
 ## リンク
 
@@ -131,6 +139,8 @@ ___太字斜体___
 [This'll be a _Helpful_ Section About the Greek Letter Θ!](#thisll-be-a-helpful-section-about-the-greek-letter-Θ)
 ```
 
+---
+
 ## リスト
 
 ```markdown
@@ -150,6 +160,8 @@ ___太字斜体___
      - First nested list item
        - Second nested list item
 ```
+
+---
 
 ## 定義リスト
 
@@ -173,6 +185,8 @@ ___太字斜体___
 定義
 : 内容
 
+---
+
 ## 略語
 
 ```markdown
@@ -188,6 +202,12 @@ is maintained by the W3C.
 
 The HTML specification  
 is maintained by the W3C.
+
+略語の定義`*[]:`は表示されず、文中の略語がABBR要素に置き換えられる。
+
+一般に略語の定義は冒頭か末尾にまとめるのが良いだろう。
+
+---
 
 ## 注釈
 
@@ -208,3 +228,5 @@ A footnote can also have multiple lines[^2].
 [^1]: My reference.
 [^2]: To add line breaks within a footnote, add 2 spaces to the end of a line.  
 This is a second line.
+
+注釈の定義は自動的に末尾になる。ただ、参照元と参照先の関連を考えれば、Markdown上では近しい箇所に記述するのが良いだろう。
