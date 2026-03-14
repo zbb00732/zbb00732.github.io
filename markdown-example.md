@@ -8,14 +8,12 @@
 ### レベル3
 #### レベル4
 ##### レベル5
-###### レベル6
 ```
 # レベル1
 ## レベル2
 ### レベル3
 #### レベル4
 ##### レベル5
-###### レベル6
 
 ---
 
@@ -111,16 +109,6 @@ ___太字斜体___
 \### レベル3見出し  
 \`\`\`
 
-## 色
-
-インライン引用で色指定するとサンプルカラーも表示される。
-
-色  | 書式      | サンプル
---- | --------- | ---
-HEX | `#RRGGBB` | `#0969DA`
-RGB | `rgb(R,G,B)` | `rgb(9, 105, 218)`
-HSL | `hsl(H,S,L)` | `hsl(212, 92%, 45%)`
-
 ## リンク
 
 別ドメインの完全URLの他、GitHubの相対リンクや、ページ内アンカーも設定できる。
@@ -163,6 +151,44 @@ HSL | `hsl(H,S,L)` | `hsl(212, 92%, 45%)`
        - Second nested list item
 ```
 
+## 定義リスト
+
+```markdown
+定義
+: 内容
+
+定義
+: 内容
+
+定義
+: 内容
+```
+
+定義
+: 内容
+
+定義
+: 内容
+
+定義
+: 内容
+
+## 略語
+
+```markdown
+*[HTML]: Hyper Text Markup Language
+*[W3C]:  World Wide Web Consortium
+
+The HTML specification
+is maintained by the W3C.
+```
+
+*[HTML]: Hyper Text Markup Language
+*[W3C]:  World Wide Web Consortium
+
+The HTML specification  
+is maintained by the W3C.
+
 ## 注釈
 
 ```markdown
@@ -182,37 +208,3 @@ A footnote can also have multiple lines[^2].
 [^1]: My reference.
 [^2]: To add line breaks within a footnote, add 2 spaces to the end of a line.  
 This is a second line.
-
-## アラート
-
-```markdown
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-```
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
