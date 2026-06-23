@@ -19,6 +19,7 @@
     "fix": "markdownlint-cli2 --fix"
   },
   "dependencies": {
+    "markdown-it": ">=14.2.0",
     "markdownlint-cli2": "^0.21.0"
   }
 }
