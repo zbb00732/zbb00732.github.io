@@ -14,5 +14,8 @@ trim_trailing_whitespace = false
 [*.{json,jsonc}]
 indent_size = 2
 
+[*.{html,htm,xml}]
+indent_size = 2
+
 [*.{yaml,yml}]
 indent_size = 2

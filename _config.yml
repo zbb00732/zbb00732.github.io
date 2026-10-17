@@ -1,3 +1,5 @@
 title: zbb00732
 theme: jekyll-theme-hacker
 lang: ja
+include:
+  - "wite2"
