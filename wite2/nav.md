@@ -1,1 +1,3 @@
 - [ホーム](?page=home)
+- [ゲーム概要](?page=overview)
+- [情報アクセス](?page=information)
