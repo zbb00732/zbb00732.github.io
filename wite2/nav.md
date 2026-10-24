@@ -2,5 +2,5 @@
 - [ゲーム概要](?page=overview)
 - [情報アクセス](?page=information)
 - [航空戦](?page=airwar)
-- [地上ユニット](?page=ground)
+- [地上ユニット](?page=groundunit)
 - [移動と戦闘](?page=moveandcombat)
